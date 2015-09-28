@@ -1,5 +1,5 @@
 (function() {
-    require("./vendor/crypto-js/crypto-js.js");
+    var CryptoJS = require("./vendor/crypto-js/crypto-js.js");
     var Rpc;
 
     Rpc = function() {
