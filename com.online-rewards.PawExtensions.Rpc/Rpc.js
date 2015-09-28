@@ -1,6 +1,6 @@
 (function() {
-    var CryptoJS = require("./vendor/crypto-js/crypto-js.js");
-    var Rpc;
+    var CryptoJS = require("./vendor/crypto-js/crypto-js.js"),
+        Rpc;
 
     Rpc = function() {
         this.evaluate = function(context) {
